@@ -1,6 +1,7 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
+<link rel="shortcut icon" href="http://www.atelieravo.com/favicon.ico" type="images/x-icon" >
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,7 @@
 </head>
 
 <body style="padding-top: 70px">
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="index.html"><em><img src="Image/Logo Atelier AVO.svg" alt="architectural design studio"/></em></a>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="index.html"><em><img src="Image/LogoAtelierAVO.svg" alt="architectural design studio"></em></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent1">
     <ul class="navbar-nav mr-auto">
@@ -29,61 +30,75 @@
 <script src="js/bootstrap-4.4.1.js"></script>
 <header>
   <div class="embed-responsive embed-responsive-5by1">
-    <iframe class="embed-responsive-item" src="Animations\contact.mp4"></iframe>
+    <iframe class="embed-responsive-item" src="Animations/contact.mp4"></iframe>
     <video preload="auto" muted="muted" autoplay="autoplay" loop="loop" >
       <source src="Animations/contact.mp4" type="video/mp4">
     </video>
   </div>
-  <h2>Let's Talk</h2>
+  <h2>Get in touch</h2>
   <p>&nbsp;</p>
 </header>
+<div class="container">
+  <h4>We are here to help you.</h4>
+  <p>&nbsp;</p>
+  <h4>Contact us by filling out the form as best as you can and we will follow up with you shortly.</h4>
+</div>
 <aside class="container-md">
-  <h2>Contact</h2>
-  <p class="text-center">Contact us today, and get reply with next 1–2 business days!</p>
+  <p>&nbsp;</p>
   <form class="row g-3" action="https://formsubmit.co/707294bed6413bbd6e364b5fde003b1e" method="POST">
     <!-- Honeypot -->
     <input type="text" name="_honey" style="display: none;">
     
     <!-- Disable Captcha -->
     <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_next" value="https://github.com/VANOUDHEUSDEN/formsubmitdemo/success.html">
-    <div class="col-md-6">
-      <label for="FirstName" class="col-form-label">First&nbsp;Name</label>
-      <input type="text" class="form-control" name="First&nbsp;Name" id="FirstName" required >
+    <input type="hidden" name="_next" value="https://atelieravo.com/success.html">
+    <div class="col-md-5">
+      <label for="FirstName" class="col-form-label">First&nbsp;Name </label>
+      <input type="text" class="form-control" name="FirstName" id="FirstName" placeholder="your name" required >
     </div>
-    <div class="col-md-6">
+    <div class="col-md-5">
       <label for="Surname" class="col-form-label">Surname</label>
-      <input type="text" class="form-control" name="Surname" id="Surname" required >
+      <input type="text" class="form-control" name="Surname" id="Surname" placeholder="your name" required >
     </div>
-    <div class="col-md-6">
+    <div class="col-md-5">
       <label for="emailinfo" class="form-label">E-mail</label>
-      <input type="email" class="form-control" name="E-mail" id="emailinfo" required>
+      <input type="email" class="form-control" name="E-mail" id="emailinfo" placeholder="your e-mail address" required>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-5">
       <label for="phonenumber" class="form-label">Phone&nbsp;Number</label>
-      <input type="text" class="form-control" name="Phone" id="phonenumber">
+      <input type="text" class="form-control" name="Phone" id="phonenumber" placeholder="country code - area code - number">
     </div>
-    <div class="col-md-6">
+    <div class="col-md-5">
       <label for="subject" class="form-label">Project&nbsp;Type</label>
-      <input type="text" class="form-control" name="Subject" id="subject" required>
+      <input type="text" class="form-control" name="Subject" id="subject" placeholder="Typology" required >
     </div>
     <div class="col-md-11">
       <label for="message" class="form-label">Message</label>
-      <textarea class="form-control" id="message" name="Message" rows="3" required></textarea>
+      <textarea class="form-control" id="message" name="Message" rows="3" placeholder="write to us" required></textarea>
     </div>
     <div class="col-md-11">
       <p>&nbsp;</p>
       <button type="submit" class="btn btn-primary">Submit</button>
-		<input type="hidden" name="_next" value="https://formsubmit.co/success.html">
+      <input type="hidden" name="_next" value="https://formsubmit.co/success.html">
+      <button type="Reset" class="btn btn-primary">Reset</button>
     </div>
   </form>
 </aside>
-<main><img src="Image\line_0.png" alt="Placeholder image"></main>
+<main><img src="Image/line.png" alt="Placeholder image"></main>
 <section>
-  <h3>Title text</h3>
+  <h4>Why Contact Atelier AVO ?</h4>
   <p>&nbsp;</p>
-  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metusThis is the content for Layout </p>
+  <div>Atelier AVO has over three decades of experience working with some of the world’s most renowned architectural firms.
+    <p>&nbsp;</p>
+    Atelier AVO offers a unique blend of expertise, creativity, and a deep understanding of the built environment.
+    <p>&nbsp;</p>
+    Atelier AVO offers comprehensive services, from master planning to interior design, ensuring every project is handled with the utmost precision and attention to detail. </div>
+  <aside>Atelier AVO use of cutting-edge technology ensures seamless communication and project management, delivering high-quality results within budget.
+    <p>&nbsp;</p>
+    If you’re looking for an architectural partner who is dedicated to transforming ideas into inspiring, sustainable spaces, we invite you to contact us today.
+    <p>&nbsp;</p>
+    Contact Atelier AVO to bring your vision to life with award-winning expertise and cost-effective solutions.  Let’s create something extraordinary together. </aside>
 </section>
-<footer>©2024. With thanks to Yumna Mansoer.</footer>
+<footer>© Atelier AVO llp 2024. With thanks to Yumna Mansoer.</footer>
 </body>
 </html>
